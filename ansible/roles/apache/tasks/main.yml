@@ -1,9 +1,0 @@
----
-
-- name: enable apache
-  service: >
-    name=apache2
-    enabled=yes
-    runlevel=default
-    state=started
-  tags: apache2
