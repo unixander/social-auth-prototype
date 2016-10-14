@@ -1,0 +1,13 @@
+{% extends  'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="container-fluid text-center">
+{% if request.user.is_authenticated %}
+<p>You're logged in as {{request.user.username}}</p>
+<a href="{% url 'logout' %}" class="btn btn-danger">{% trans 'Logout' %}</a>
+{% else %}
+<a href="{% url 'social:begin' backend='slack' %}" class="btn btn-default" >{% trans 'Sign In' %}</a>
+{% endif %}
+</div>
+{% endblock content %}

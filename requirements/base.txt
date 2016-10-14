@@ -1,0 +1,13 @@
+celery==3.1.23
+Django==1.10.1
+django-braces==1.9.0
+django-environ==0.4.0
+django-extensions==1.7.4
+django-model-utils==2.5.2
+Pillow==3.3.1
+psycopg2==2.6.2
+pytz==2016.6.1
+python-social-auth==0.2.21
+raven==5.26.0
+redis>=2.10.0
+slackclient==1.0.0
