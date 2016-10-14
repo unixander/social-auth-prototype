@@ -1,4 +1,3 @@
-========================
 Slack Team Authentication Prototype
 ========================
 
